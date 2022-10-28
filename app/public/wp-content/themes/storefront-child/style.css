@@ -1,0 +1,116 @@
+/*
+Theme Name: Storefront Child
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Bjarne Helsinghof
+Author URI: https://woocommerce.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 4.1.3.1665131979
+Updated: 2022-10-07 08:39:39
+
+*/
+
+body {
+    background-color: #ffe4c4;
+}
+
+.site-footer {
+    background-color: #DAC3A8;
+}
+
+.site-header {
+    background-color: #DAC3A8;
+}
+
+
+.site-branding .site-title a {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+/*changes the properties of the buttons in the cart*/
+button.button {
+    background-color: rgb(233, 94, 94);
+    border-color: #eeeeee;
+    color: #333333;
+}
+
+/*controls properties of add to cart button*/
+.add_to_cart_button,
+.add_to_cart_button.a {
+    background-color: red;
+    border-color: #eeeeee;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/*changes the properties of the title of the product*/
+ul.products li.product .woocommerce-loop-product__title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*changes the properties of the price of the product*/
+ul.products li.product .price {
+    font-weight: lighter;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*checkout headline*/
+.entry-title,
+.entry-title-a,
+.h2-a {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.woocommerce-MyAccount-navigation,
+.woocommerce-MyAccount-navigation-ul {
+    color: white;
+
+}
+
+/*changes the properties of the filter title*/
+.wp-block-woocommerce-attribute-filter>.wc-block-attribute-filter__title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/*used to change color of nav-bar*/
+.main-navigation ul li a,
+ul.menu li a,
+button.menu-toggle,
+button.menu-toggle:hover,
+.handheld-navigation .dropdown-toggle {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/*changes apperence of filter attributes*/
+.wc-block-attribute-filter .wc-block-attribute-filter-list li label {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.woocommerce-products-header__title,
+.page-title {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+}
