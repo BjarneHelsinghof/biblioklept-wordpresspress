@@ -27,7 +27,6 @@ body {
 .site-branding .site-title a {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-
 }
 
 /*changes the properties of the buttons in the cart*/
@@ -84,6 +83,7 @@ ul.products li.product .price {
     font-size: 2em;
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
+
 }
 
 
